@@ -4,7 +4,7 @@ A (Linear congrential generator)[https://en.wikipedia.org/wiki/Linear_congruenti
 
 ## Compile assembly
 
-Use `wat2wasm` in the (WebAseembly binary toolkit)[https://github.com/WebAssembly/wabt].
+Use `wat2wasm` in the [WebAseembly binary toolkit]( https://github.com/WebAssembly/wabt ).
 
 ```
 wat2wasm main.wat -o main.wasm
