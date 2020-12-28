@@ -1,6 +1,6 @@
 # Linear congruential generator
 
-A (Linear congrential generator)[https://en.wikipedia.org/wiki/Linear_congruential_generator] in WebAssembly using... WebAssembly.
+A [Linear congrential generator](https://en.wikipedia.org/wiki/Linear_congruential_generator) in WebAssembly using... WebAssembly.
 
 ## Compile assembly
 
