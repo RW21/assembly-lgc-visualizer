@@ -1,12 +1,14 @@
 const memory = new WebAssembly.Memory({ initial: 128 })
 document.getElementById('loader').style.visibility = 'hidden'
 
+// Initialize seed
+const seed = Math.floor(Math.random() * 1000)
+console.log("Initial seed: ", seed)
+
 document.getElementById('values').onkeyup = function () {
 
     let multiplier = parseInt(document.getElementById("multiplier-form").value) ? parseInt(document.getElementById("multiplier-form").value) : 0
     let increment = parseInt(document.getElementById("increment-form").value) ? parseInt(document.getElementById("increment-form").value) : 0
-    const seed = Math.floor(Math.random() * 1000)
-    console.log("Initial seed: ", seed)
 
     const imports_ = {
         js: {
